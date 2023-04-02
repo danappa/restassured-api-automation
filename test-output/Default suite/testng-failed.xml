@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.Rest_Assured.Rest_log">
+      <class name="api.Rest_Assured.Header_Cookies">
         <methods>
-          <include name="log_if_validation_fails"/>
+          <include name="validate_response_header"/>
         </methods>
-      </class> <!-- api.Rest_Assured.Rest_log -->
+      </class> <!-- api.Rest_Assured.Header_Cookies -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

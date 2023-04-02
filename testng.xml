@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="api.Rest_Assured.Auth"/>
+      <class name="api.Rest_Assured.Get_Request"/>
+      <class name="api.Rest_Assured.Rest_log"/>
+      <class name="api.Rest_Assured.Query_Parameter"/>
+      <class name="api.Rest_Assured.Header_Cookies"/>
+      <class name="api.Rest_Assured.Post_Put_Delete"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

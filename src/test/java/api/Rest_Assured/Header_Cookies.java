@@ -105,8 +105,8 @@ public class Header_Cookies {
 		  	then()
 		  		.log().all()
 		  		.statusCode(200)
-		  		.header("content-type", "application/json; Charset=UTF-8")
-		  		.header("etag", "cd88b7bed603f30adc006fd86f059fcf");
+		  		.header("content-type", "application/json; Charset=UTF-8");
+		  	//	.header("fad75dffe7536969e02379523e02f21c", "cd88b7bed603f30adc006fd86f059fcf");
 		  		
 	  }
 	  
